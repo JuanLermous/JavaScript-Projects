@@ -1,0 +1,32 @@
+.calculator {
+    background-color: grey;
+    width: 300px;
+    height: 400px;
+    max-width: 300px;
+    max-height: auto;
+  
+    border-color: black;
+    border-style:groove;
+    box-shadow: 10px 10px 10px lightgrey;
+    
+    /* to center a div */
+    position: fixed;
+    inset: 0px; 
+    margin: auto;  
+}
+
+.calculator-display{
+    background-color:aliceblue;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 100px;
+}
+
+.calculator-buttons {
+   align-content: center;
+   margin: auto;
+}
